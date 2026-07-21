@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deepagents-langgraph-rca"
+version = "0.1.0"
+description = "Public PoC for Deep Agents on LangGraph doing governed task-delivery RCA."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Recohut Labs" }]
+dependencies = [
+  "deepagents>=0.0.6",
+  "langchain-core>=0.3",
+  "langchain-openai>=0.2",
+  "langgraph>=0.2",
+  "pydantic>=2",
+  "python-dotenv>=1",
+  "requests>=2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8",
+  "nbformat>=5",
+]
+sqlite = [
+  "langgraph-checkpoint-sqlite>=2",
+]
+notebooks = [
+  "ipykernel>=6",
+  "nbformat>=5",
+]
+
+[project.scripts]
+deepagents-langgraph-rca = "deepagents_langgraph_rca.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"

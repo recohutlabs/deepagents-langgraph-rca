@@ -1,0 +1,89 @@
+{
+  "employee_id": "EMP001",
+  "employee_name": "Aarav Mehta",
+  "role": "Data Platform Engineer",
+  "manager": "Priya Nair",
+  "week_start": "2026-07-13",
+  "standard_weekly_hours": 40,
+  "tasks": [
+    {
+      "task_id": "EMP001-T01",
+      "title": "Pipeline backfill validation",
+      "category": "Platform",
+      "priority": "High",
+      "status": "Done",
+      "estimated_hours": 8,
+      "actual_hours": 8,
+      "due_date": "2026-07-13",
+      "completed_date": "2026-07-13",
+      "systems": ["production warehouse", "pipeline monitor"],
+      "notes": [
+        "Completed on Monday.",
+        "Aligned with Aarav's data platform reliability responsibilities."
+      ]
+    },
+    {
+      "task_id": "EMP001-T02",
+      "title": "Feature store freshness incident fix",
+      "category": "Platform",
+      "priority": "High",
+      "status": "Done",
+      "estimated_hours": 16,
+      "actual_hours": 16,
+      "due_date": "2026-07-15",
+      "completed_date": "2026-07-15",
+      "systems": ["production feature store", "production warehouse"],
+      "notes": [
+        "Completed across Tuesday and Wednesday.",
+        "Required extended production validation during release week."
+      ]
+    },
+    {
+      "task_id": "EMP001-T03",
+      "title": "Warehouse release checklist",
+      "category": "Platform",
+      "priority": "High",
+      "status": "Done",
+      "estimated_hours": 8,
+      "actual_hours": 5,
+      "due_date": "2026-07-18",
+      "completed_date": "2026-07-17",
+      "systems": ["production airflow", "release checklist"],
+      "notes": [
+        "Completed ahead of the July 18 due date.",
+        "Logged effort remains available for workload context."
+      ]
+    },
+    {
+      "task_id": "EMP001-T04",
+      "title": "Data quality threshold tuning",
+      "category": "Platform",
+      "priority": "Medium",
+      "status": "Cancelled",
+      "estimated_hours": 8,
+      "actual_hours": 4,
+      "due_date": "2026-07-18",
+      "systems": ["data quality monitor"],
+      "notes": [
+        "Closed before the status review after partial effort.",
+        "No further work was planned for this task in the active task list."
+      ]
+    },
+    {
+      "task_id": "EMP001-T05",
+      "title": "Customer retention cohort readout",
+      "category": "Analytics",
+      "priority": "High",
+      "status": "In Progress",
+      "estimated_hours": 8,
+      "actual_hours": 2,
+      "due_date": "2026-07-16",
+      "systems": ["approved BI workspace"],
+      "notes": [
+        "Aarav started by checking data export freshness.",
+        "The requested deliverable includes product retention interpretation and an executive readout.",
+        "No dated assignment exception is recorded in the task file."
+      ]
+    }
+  ]
+}

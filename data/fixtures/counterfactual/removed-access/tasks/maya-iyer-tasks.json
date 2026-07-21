@@ -1,0 +1,101 @@
+{
+  "employee_id": "EMP002",
+  "employee_name": "Maya Iyer",
+  "role": "Product Analyst",
+  "manager": "Rohan Sen",
+  "week_start": "2026-07-13",
+  "standard_weekly_hours": 40,
+  "effective_capacity_note": "Maya has an approved remote-work exception documented in her agreement. Access limitations should be verified against the agreement and policy evidence.",
+  "tasks": [
+    {
+      "task_id": "EMP002-T01",
+      "title": "Weekly insight note",
+      "category": "Reporting",
+      "priority": "Medium",
+      "status": "Done",
+      "estimated_hours": 4,
+      "actual_hours": 4,
+      "due_date": "2026-07-13",
+      "completed_date": "2026-07-13",
+      "systems": [
+        "approved BI workspace"
+      ],
+      "notes": [
+        "Completed Monday.",
+        "Normal Product Analyst reporting task."
+      ]
+    },
+    {
+      "task_id": "EMP002-T02",
+      "title": "Experiment readout QA",
+      "category": "Analytics",
+      "priority": "High",
+      "status": "Done",
+      "estimated_hours": 4,
+      "actual_hours": 4,
+      "due_date": "2026-07-14",
+      "completed_date": "2026-07-14",
+      "systems": [
+        "approved BI workspace"
+      ],
+      "notes": [
+        "Completed Tuesday.",
+        "Shows Maya was actively working earlier in the week."
+      ]
+    },
+    {
+      "task_id": "EMP002-T03",
+      "title": "Executive KPI snapshot",
+      "category": "Reporting",
+      "priority": "Medium",
+      "status": "Done",
+      "estimated_hours": 8,
+      "actual_hours": 5,
+      "due_date": "2026-07-18",
+      "completed_date": "2026-07-17",
+      "systems": [
+        "approved BI workspace"
+      ],
+      "notes": [
+        "Completed ahead of the July 18 due date.",
+        "Uses approved browser-based analytics tools."
+      ]
+    },
+    {
+      "task_id": "EMP002-T04",
+      "title": "Customer segment cleanup",
+      "category": "Analytics Ops",
+      "priority": "Low",
+      "status": "Cancelled",
+      "estimated_hours": 2,
+      "actual_hours": 1,
+      "due_date": "2026-07-18",
+      "systems": [
+        "approved BI workspace"
+      ],
+      "notes": [
+        "Small cleanup task.",
+        "Closed after initial cleanup; no follow-up work remains."
+      ]
+    },
+    {
+      "task_id": "EMP002-T05",
+      "title": "Validate retention anomaly against production events",
+      "category": "Analytics",
+      "priority": "High",
+      "status": "In Progress",
+      "estimated_hours": 8,
+      "actual_hours": 3,
+      "due_date": "2026-07-16",
+      "systems": [
+        "approved BI workspace",
+        "production event database"
+      ],
+      "notes": [
+        "Maya started validation in the approved BI workspace.",
+        "The task file does not include a production-event database access decision.",
+        "The remaining records do not show whether the latest production-event partition was available."
+      ]
+    }
+  ]
+}

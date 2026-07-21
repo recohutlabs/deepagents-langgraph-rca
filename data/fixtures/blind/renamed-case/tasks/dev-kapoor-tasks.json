@@ -1,0 +1,74 @@
+{
+  "employee_id": "BLD303",
+  "employee_name": "Dev Kapoor",
+  "role": "Customer Solutions Engineer",
+  "manager": "Nisha Rao",
+  "week_start": "2026-07-13",
+  "standard_weekly_hours": 40,
+  "tasks": [
+    {
+      "task_id": "BLD303-T01",
+      "title": "Customer pilot configuration",
+      "category": "Customer",
+      "priority": "High",
+      "status": "Done",
+      "estimated_hours": 6,
+      "actual_hours": 6,
+      "due_date": "2026-07-13",
+      "completed_date": "2026-07-13",
+      "systems": ["customer demo environment"],
+      "notes": ["Completed customer setup work."]
+    },
+    {
+      "task_id": "BLD303-T02",
+      "title": "Demo environment reset",
+      "category": "Customer",
+      "priority": "Medium",
+      "status": "Done",
+      "estimated_hours": 4,
+      "actual_hours": 4,
+      "due_date": "2026-07-14",
+      "completed_date": "2026-07-14",
+      "systems": ["customer demo environment"],
+      "notes": ["Completed demo reset work."]
+    },
+    {
+      "task_id": "BLD303-T03",
+      "title": "Integration log review",
+      "category": "Customer",
+      "priority": "Medium",
+      "status": "Done",
+      "estimated_hours": 5,
+      "actual_hours": 3,
+      "due_date": "2026-07-18",
+      "completed_date": "2026-07-17",
+      "systems": ["customer integration logs"],
+      "notes": ["Completed ahead of the July 18 due date."]
+    },
+    {
+      "task_id": "BLD303-T04",
+      "title": "Client workshop prep",
+      "category": "Customer",
+      "priority": "High",
+      "status": "Done",
+      "estimated_hours": 5,
+      "actual_hours": 4,
+      "due_date": "2026-07-18",
+      "completed_date": "2026-07-17",
+      "systems": ["customer demo environment"],
+      "notes": ["Completed ahead of the July 18 due date."]
+    },
+    {
+      "task_id": "BLD303-T05",
+      "title": "Customer handoff summary",
+      "category": "Documentation",
+      "priority": "Medium",
+      "status": "In Progress",
+      "estimated_hours": 3,
+      "actual_hours": 2,
+      "due_date": "2026-07-21",
+      "systems": ["customer notes workspace"],
+      "notes": ["Normal upcoming documentation task."]
+    }
+  ]
+}
